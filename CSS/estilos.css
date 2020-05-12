@@ -1,0 +1,97 @@
+/* soft reset do CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('../img/fundo-creditos-pinterest-unsplush.jpeg');
+    background-size: auto 100vh;
+    font-family: Didot;
+    height: 100vh;
+    font-size: 12px;
+}
+
+/* se (if) a tela tiver pelo menos 400px vai carregar esses estilos */
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+}
+
+/* breakpoint */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+}
+
+header {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+  
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.menu li {
+    list-style: none;
+}
+  
+.menu a {
+    display: block;
+    padding: 10px 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 4em;
+}
+  
+.site-subtitle {
+    font-style: Italic;
+    font-size: 2em;
+}
+
+
+.img-portfolio {
+   height: 180px;
+   width: 180px; 
+}
+
+/* ferificar */
+h2, figcaption {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
